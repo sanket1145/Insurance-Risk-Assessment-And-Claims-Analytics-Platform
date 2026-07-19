@@ -1,9 +1,10 @@
 Insurance Risk Assessment & Claims Analytics Platform
-
 Project Overview
+
 This project presents an end-to-end insurance analytics solution developed using Python, SQL, and Power BI. The objective is to identify high-risk insurance customers, evaluate vehicle and safety factors influencing claims, and provide business recommendations for underwriting and premium pricing.
 
 Business Problem
+
 Insurance companies need accurate risk assessment to minimize claim losses while maintaining customer satisfaction. This project analyzes customer demographics, vehicle characteristics, safety features, and regional factors to identify patterns associated with insurance claims.
 
 Project Objectives
@@ -13,7 +14,6 @@ Evaluate vehicle and safety risk factors
 Perform SQL-based business analysis
 Build interactive Power BI dashboards
 Generate actionable business recommendations
-
 Project Workflow
 Business Understanding
         │
@@ -34,32 +34,32 @@ Power BI Dashboard
         │
         ▼
 Business Insights & Recommendations
-
 Project Structure
 Insurance-Risk-Assessment-Claims-Analytics/
+
 │
 ├── Dataset/
 ├── Python/
 │   ├── Insurance_Claims_Analysis.ipynb
-│   ├── Python Analysis Images/
+│   ├── Images/
 │
 ├── SQL/
-│   ├── 01 Data Validation.sql
-│   ├── 02 Customer Risk Analysis.sql
-│   ├── 03 Vehicle Risk Analysis.sql
-│   ├── 04 Claims Analysis.sql
-│   ├── 05 Safety Feature Analysis.sql
-│   ├── 06 Regional and Policy Analysis.sql
-│   ├── 07 Executive Business Insights.sql
-│   ├── 08 Advanced SQL Analytics.sql
+│   ├── 01_Data_Validation.sql
+│   ├── 02_Customer_Risk_Analysis.sql
+│   ├── 03_Vehicle_Risk_Analysis.sql
+│   ├── 04_Claims_Analysis.sql
+│   ├── 05_Safety_Feature_Analysis.sql
+│   ├── 06_Regional_Policy_Analysis.sql
+│   ├── 07_Executive_Business_Insights.sql
+│   ├── 08_Advanced_SQL_Analytics.sql
 │
-├── Power BI Dashboard/
-│   ├── Insurance Risk Assessment & Claims Analytics Dashboard.pbix
+├── Power BI/
+│   ├── Insurance Dashboard.pbix
 │
 ├── Documentation/
-│   ├── Business Report.pdf
+│   ├── Business_Understanding_Report.pdf
 │
-├── Dashboard Images/
+├── Images/
 │
 └── README.md
 Technologies Used
@@ -71,7 +71,6 @@ Power BI
 GitHub
 
 Key Analysis Performed
-
 Data Validation
 Exploratory Data Analysis
 Customer Risk Analysis
